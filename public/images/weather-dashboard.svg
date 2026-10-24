@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" fill="none">
+  <!-- Background -->
+  <rect width="960" height="600" fill="#F7F7F5"/>
+  <rect x="24" y="24" width="912" height="552" rx="4" fill="#FFFFFF" stroke="#E5E5E5" stroke-width="1.5"/>
+
+  <!-- Top App Navigation Bar -->
+  <rect x="24" y="24" width="912" height="56" fill="#FFFFFF"/>
+  <line x1="24" y1="80" x2="936" y2="80" stroke="#E5E5E5" stroke-width="1"/>
+  
+  <circle cx="52" cy="52" r="5" fill="#E5E5E5"/>
+  <circle cx="68" cy="52" r="5" fill="#E5E5E5"/>
+  <circle cx="84" cy="52" r="5" fill="#E5E5E5"/>
+
+  <text x="110" y="56" font-family="'Inter', sans-serif" font-size="13" font-weight="600" fill="#171717">METEOROLOGICAL INTELLIGENCE</text>
+  <rect x="330" y="42" width="90" height="20" rx="3" fill="#F7F7F5" stroke="#E5E5E5" stroke-width="1"/>
+  <text x="375" y="56" font-family="'Inter', sans-serif" font-size="10" font-weight="500" fill="#666666" text-anchor="middle">LIVE METEO API</text>
+
+  <!-- Location Search Bar in Nav -->
+  <rect x="620" y="38" width="230" height="28" rx="3" fill="#FAFAFA" stroke="#E5E5E5" stroke-width="1"/>
+  <text x="636" y="56" font-family="'Inter', sans-serif" font-size="11" fill="#666666">Jaipur, Rajasthan, IN</text>
+  <circle cx="836" cy="52" r="4" fill="#171717"/>
+
+  <!-- Main Hero Weather Display -->
+  <g transform="translate(48, 106)">
+    <!-- Main Temp Card -->
+    <rect width="520" height="200" rx="4" fill="#FFFFFF" stroke="#E5E5E5" stroke-width="1.5"/>
+    <text x="24" y="38" font-family="'Inter', sans-serif" font-size="11" font-weight="600" fill="#858585" letter-spacing="1">CURRENT CONDITIONS · JAIPUR</text>
+    
+    <text x="24" y="115" font-family="'Inter', sans-serif" font-size="72" font-weight="300" fill="#171717">28°<tspan font-size="32" font-weight="400" fill="#858585">C</tspan></text>
+    <text x="175" y="80" font-family="'Inter', sans-serif" font-size="16" font-weight="600" fill="#171717">Clear Sky / Sunny</text>
+    <text x="175" y="102" font-family="'Inter', sans-serif" font-size="12" fill="#666666">Feels like 29.4°C · Low wind speed</text>
+    <text x="175" y="122" font-family="'Inter', sans-serif" font-size="11" fill="#858585">Updated 4 mins ago · Lat 26.91°N, Lon 75.78°E</text>
+
+    <!-- Mini stats in card -->
+    <line x1="24" y1="145" x2="496" y2="145" stroke="#E5E5E5" stroke-width="1"/>
+    
+    <text x="24" y="172" font-family="'Inter', sans-serif" font-size="10" fill="#858585">HUMIDITY</text>
+    <text x="24" y="190" font-family="'Inter', sans-serif" font-size="13" font-weight="600" fill="#171717">42%</text>
+
+    <text x="120" y="172" font-family="'Inter', sans-serif" font-size="10" fill="#858585">WIND VELOCITY</text>
+    <text x="120" y="190" font-family="'Inter', sans-serif" font-size="13" font-weight="600" fill="#171717">11.8 km/h</text>
+
+    <text x="230" y="172" font-family="'Inter', sans-serif" font-size="10" fill="#858585">UV INDEX</text>
+    <text x="230" y="190" font-family="'Inter', sans-serif" font-size="13" font-weight="600" fill="#171717">6.2 (Moderate)</text>
+
+    <text x="340" y="172" font-family="'Inter', sans-serif" font-size="10" fill="#858585">AIR PRESSURE</text>
+    <text x="340" y="190" font-family="'Inter', sans-serif" font-size="13" font-weight="600" fill="#171717">1014 hPa</text>
+
+    <text x="440" y="172" font-family="'Inter', sans-serif" font-size="10" fill="#858585">VISIBILITY</text>
+    <text x="440" y="190" font-family="'Inter', sans-serif" font-size="13" font-weight="600" fill="#171717">10.0 km</text>
+  </g>
+
+  <!-- Right Side: 7-Day Extended Outlook -->
+  <g transform="translate(592, 106)">
+    <rect width="320" height="200" rx="4" fill="#FAFAFA" stroke="#E5E5E5" stroke-width="1.5"/>
+    <text x="16" y="28" font-family="'Inter', sans-serif" font-size="11" font-weight="600" fill="#858585" letter-spacing="1">7-DAY METRIC OUTLOOK</text>
+
+    <!-- Day 1 -->
+    <text x="16" y="60" font-family="'Inter', sans-serif" font-size="12" font-weight="600" fill="#171717">Today</text>
+    <text x="110" y="60" font-family="'Inter', sans-serif" font-size="11" fill="#666666">Sunny</text>
+    <line x1="170" y1="56" x2="250" y2="56" stroke="#171717" stroke-width="2"/>
+    <text x="290" y="60" font-family="'Inter', sans-serif" font-size="12" font-weight="600" fill="#171717" text-anchor="end">31° / 19°</text>
+
+    <!-- Day 2 -->
+    <text x="16" y="92" font-family="'Inter', sans-serif" font-size="12" fill="#171717">Fri</text>
+    <text x="110" y="92" font-family="'Inter', sans-serif" font-size="11" fill="#666666">Mostly Clear</text>
+    <line x1="170" y1="88" x2="245" y2="88" stroke="#666666" stroke-width="2"/>
+    <text x="290" y="92" font-family="'Inter', sans-serif" font-size="12" fill="#171717" text-anchor="end">30° / 18°</text>
+
+    <!-- Day 3 -->
+    <text x="16" y="124" font-family="'Inter', sans-serif" font-size="12" fill="#171717">Sat</text>
+    <text x="110" y="124" font-family="'Inter', sans-serif" font-size="11" fill="#666666">Partly Cloudy</text>
+    <line x1="170" y1="120" x2="240" y2="120" stroke="#858585" stroke-width="2"/>
+    <text x="290" y="124" font-family="'Inter', sans-serif" font-size="12" fill="#171717" text-anchor="end">29° / 18°</text>
+
+    <!-- Day 4 -->
+    <text x="16" y="156" font-family="'Inter', sans-serif" font-size="12" fill="#171717">Sun</text>
+    <text x="110" y="156" font-family="'Inter', sans-serif" font-size="11" fill="#666666">Light Breeze</text>
+    <line x1="170" y1="152" x2="235" y2="152" stroke="#858585" stroke-width="2"/>
+    <text x="290" y="156" font-family="'Inter', sans-serif" font-size="12" fill="#171717" text-anchor="end">28° / 17°</text>
+
+    <!-- Day 5 -->
+    <text x="16" y="186" font-family="'Inter', sans-serif" font-size="12" fill="#171717">Mon</text>
+    <text x="110" y="186" font-family="'Inter', sans-serif" font-size="11" fill="#666666">Sunny</text>
+    <line x1="170" y1="182" x2="250" y2="182" stroke="#171717" stroke-width="2"/>
+    <text x="290" y="186" font-family="'Inter', sans-serif" font-size="12" fill="#171717" text-anchor="end">31° / 19°</text>
+  </g>
+
+  <!-- Bottom: 24-Hour Hourly Progression Graph -->
+  <g transform="translate(48, 330)">
+    <rect width="864" height="220" rx="4" fill="#FFFFFF" stroke="#E5E5E5" stroke-width="1.5"/>
+    <text x="24" y="28" font-family="'Inter', sans-serif" font-size="11" font-weight="600" fill="#858585" letter-spacing="1">CHRONOLOGICAL 24-HOUR HOURLY TEMPERATURE &amp; PRECIPITATION CURVE</text>
+    
+    <!-- Grid lines -->
+    <line x1="60" y1="60" x2="820" y2="60" stroke="#F0F0F0" stroke-width="1"/>
+    <line x1="60" y1="100" x2="820" y2="100" stroke="#F0F0F0" stroke-width="1"/>
+    <line x1="60" y1="140" x2="820" y2="140" stroke="#F0F0F0" stroke-width="1"/>
+    <line x1="60" y1="180" x2="820" y2="180" stroke="#E5E5E5" stroke-width="1"/>
+
+    <text x="45" y="64" font-family="'Inter', sans-serif" font-size="10" fill="#858585" text-anchor="end">32°</text>
+    <text x="45" y="104" font-family="'Inter', sans-serif" font-size="10" fill="#858585" text-anchor="end">28°</text>
+    <text x="45" y="144" font-family="'Inter', sans-serif" font-size="10" fill="#858585" text-anchor="end">24°</text>
+    <text x="45" y="184" font-family="'Inter', sans-serif" font-size="10" fill="#858585" text-anchor="end">20°</text>
+
+    <!-- Temperature curve -->
+    <path d="M70 160 Q 140 170, 220 145 T 380 90 T 540 65 T 680 110 T 810 155" fill="none" stroke="#171717" stroke-width="2.5"/>
+    
+    <!-- Hourly Points -->
+    <circle cx="70" cy="160" r="4" fill="#171717"/>
+    <circle cx="220" cy="145" r="4" fill="#171717"/>
+    <circle cx="380" cy="90" r="4" fill="#171717"/>
+    <circle cx="540" cy="65" r="4" fill="#171717"/>
+    <circle cx="680" cy="110" r="4" fill="#171717"/>
+    <circle cx="810" cy="155" r="4" fill="#171717"/>
+
+    <!-- Point Labels -->
+    <text x="70" y="148" font-family="'Inter', sans-serif" font-size="10" font-weight="600" fill="#171717" text-anchor="middle">21°</text>
+    <text x="70" y="200" font-family="'Inter', sans-serif" font-size="10" fill="#858585" text-anchor="middle">04:00</text>
+
+    <text x="220" y="133" font-family="'Inter', sans-serif" font-size="10" font-weight="600" fill="#171717" text-anchor="middle">24°</text>
+    <text x="220" y="200" font-family="'Inter', sans-serif" font-size="10" fill="#858585" text-anchor="middle">08:00</text>
+
+    <text x="380" y="78" font-family="'Inter', sans-serif" font-size="10" font-weight="600" fill="#171717" text-anchor="middle">29°</text>
+    <text x="380" y="200" font-family="'Inter', sans-serif" font-size="10" fill="#858585" text-anchor="middle">12:00</text>
+
+    <text x="540" y="53" font-family="'Inter', sans-serif" font-size="10" font-weight="600" fill="#171717" text-anchor="middle">31°</text>
+    <text x="540" y="200" font-family="'Inter', sans-serif" font-size="10" fill="#858585" text-anchor="middle">16:00</text>
+
+    <text x="680" y="98" font-family="'Inter', sans-serif" font-size="10" font-weight="600" fill="#171717" text-anchor="middle">27°</text>
+    <text x="680" y="200" font-family="'Inter', sans-serif" font-size="10" fill="#858585" text-anchor="middle">20:00</text>
+
+    <text x="810" y="143" font-family="'Inter', sans-serif" font-size="10" font-weight="600" fill="#171717" text-anchor="middle">22°</text>
+    <text x="810" y="200" font-family="'Inter', sans-serif" font-size="10" fill="#858585" text-anchor="middle">00:00</text>
+  </g>
+</svg>

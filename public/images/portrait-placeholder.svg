@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 750" fill="none">
+  <!-- Architectural Canvas Background -->
+  <rect width="600" height="750" fill="#F7F7F5"/>
+  
+  <!-- Outer Border & Technical Framing -->
+  <rect x="24" y="24" width="552" height="702" fill="#FFFFFF" stroke="#E5E5E5" stroke-width="1.5"/>
+  <rect x="36" y="36" width="528" height="678" fill="#FAFAFA" stroke="#E5E5E5" stroke-width="1" stroke-dasharray="2 2"/>
+
+  <!-- Top Metadata Header -->
+  <g transform="translate(56, 68)">
+    <text x="0" y="0" font-family="'Inter', sans-serif" font-size="10" font-weight="600" fill="#858585" letter-spacing="1.5">FIG. 01 — DEVELOPER PORTRAIT</text>
+    <text x="488" y="0" font-family="'JetBrains Mono', monospace" font-size="10" fill="#858585" text-anchor="end">26.91°N 75.78°E</text>
+    <line x1="0" y1="14" x2="488" y2="14" stroke="#E5E5E5" stroke-width="1"/>
+  </g>
+
+  <!-- Central Editorial Silhouette & Monogram -->
+  <g transform="translate(300, 310)">
+    <!-- Outer framing circle -->
+    <circle cx="0" cy="0" r="140" fill="#FFFFFF" stroke="#E5E5E5" stroke-width="1.5"/>
+    <circle cx="0" cy="0" r="128" fill="#F7F7F5" stroke="#E5E5E5" stroke-width="1"/>
+
+    <!-- Subtle Architectonic Lines -->
+    <line x1="-140" y1="0" x2="140" y2="0" stroke="#E5E5E5" stroke-width="1" stroke-dasharray="3 3"/>
+    <line x1="0" y1="-140" x2="0" y2="140" stroke="#E5E5E5" stroke-width="1" stroke-dasharray="3 3"/>
+
+    <!-- Head & Shoulders Architectural Silhouette -->
+    <!-- Head -->
+    <circle cx="0" cy="-28" r="46" fill="#171717"/>
+    <!-- Collar / Neck -->
+    <path d="M-18 18 L18 18 L24 44 L-24 44 Z" fill="#171717"/>
+    <!-- Shoulders -->
+    <path d="M-82 108 C-82 66, -45 50, 0 50 C45 50, 82 66, 82 108 Z" fill="#171717"/>
+    
+    <!-- Monogram Overlay on Shoulders -->
+    <rect x="-32" y="70" width="64" height="28" rx="2" fill="#FFFFFF" stroke="#171717" stroke-width="1"/>
+    <text x="0" y="89" font-family="'Inter', sans-serif" font-size="13" font-weight="700" fill="#171717" text-anchor="middle" letter-spacing="2">VG</text>
+  </g>
+
+  <!-- Bottom Details & Editorial Caption -->
+  <g transform="translate(56, 520)">
+    <line x1="0" y1="0" x2="488" y2="0" stroke="#E5E5E5" stroke-width="1"/>
+    
+    <text x="0" y="32" font-family="'Manrope', 'Inter', sans-serif" font-size="22" font-weight="600" fill="#171717">Vivek Garg</text>
+    <text x="0" y="54" font-family="'Inter', sans-serif" font-size="12" fill="#666666">B.Tech Computer Science Engineering (3rd Year)</text>
+    <text x="0" y="72" font-family="'Inter', sans-serif" font-size="12" fill="#858585">Arya College of Engineering &amp; IT · Expected 2028</text>
+
+    <!-- Placeholder Status Notice -->
+    <rect x="0" y="96" width="488" height="54" rx="3" fill="#FFFFFF" stroke="#E5E5E5" stroke-width="1"/>
+    <text x="16" y="118" font-family="'Inter', sans-serif" font-size="10" font-weight="600" fill="#171717" letter-spacing="0.5">AUTHENTIC PORTRAIT PLACEHOLDER</text>
+    <text x="16" y="136" font-family="'JetBrains Mono', monospace" font-size="10" fill="#858585">Drop photo in public/images/portrait.jpg to display genuine photo</text>
+  </g>
+
+  <!-- Corner Alignment Crosshairs -->
+  <path d="M20 24 L28 24 M24 20 L24 28" stroke="#171717" stroke-width="1"/>
+  <path d="M572 24 L580 24 M576 20 L576 28" stroke="#171717" stroke-width="1"/>
+  <path d="M20 726 L28 726 M24 722 L24 730" stroke="#171717" stroke-width="1"/>
+  <path d="M572 726 L580 726 M576 722 L576 730" stroke="#171717" stroke-width="1"/>
+</svg>
